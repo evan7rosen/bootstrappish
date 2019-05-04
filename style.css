@@ -1,1 +1,153 @@
-/* Some CSS goes here */
+
+
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Utility classes */
+
+.center-text {
+    text-align: center;
+    padding: 2px;
+}
+
+/* Navbar styles */
+
+.main-nav {
+    background-color: black;
+    color: white;  
+    padding: 15px;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+.nav-item:not(:first-child) {
+    margin-left: 10px;
+}
+
+/* Header Styles */
+
+header{
+    background-color: yellowgreen;
+    padding: 50px;
+    color: greenyellow;
+    font-family: inherit;
+}
+
+.header-style{
+    margin: 10px
+}
+
+.header-button{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.header-title{
+    font-size: 63px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.collaboration{
+    color: black
+    font-family: inherit;
+}
+
+.collaboration-1{
+    font-size: 50px;
+}
+
+.collaboration-2{
+    color: gray;
+    font-size: 40px;
+}
+
+.collaboration-3{
+    color: gray;
+    font-size: 20px;
+}
+
+.mid-flex{
+    display: flex;
+    padding: 20px;
+}
+
+.column{
+    margin: auto;
+}
+
+.lower-flex{
+    display: flex;
+    padding: 20px;
+    background-color: orange;
+}
+
+.image-cropper {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.center-image-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-image-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/* Footer styles */
+
